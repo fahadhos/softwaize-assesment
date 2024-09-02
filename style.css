@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.couponbanner {
+  background-color: black;
+  display: flex;
+  place-content: center;
+  text-align: center;
+  font-size: x-small;
+  padding: 0.4rem;
+}
+.for_coupon_mobile_view_br {
+  display: none;
+}
+.mobile_nav {
+  display: none;
+}
+
+.desktop_nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.desktop_nav .navitems {
+  display: flex;
+  p {
+    padding-right: 1rem;
+  }
+}
+
+.bottom_card_container {
+    display: flex;
+    padding: 2rem;
+    font-size: small;
+  }
+  .bottom_card_img {
+    background-color: #f1efee;
+    border-radius: 2px;
+    border: 0px;
+    margin-bottom:  1rem;
+  }
+  .bottom-card {
+    padding: 0.4rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .card_container {
+    display: flex;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card_img {
+    background-color: #f1efee;
+    border-radius: 228px;
+    width: 110px;
+    border: 2px  ;
+    margin-bottom:  1rem;
+  }
+  .card {
+    padding: 0.4rem;
+    text-align: center;
+
+    text-transform: uppercase;
+  }
+/* for Mobile view */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .for_coupon_mobile_view_br {
+    display: inline;
+  }
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+
+  .bottom_card_container {
+    display: flex;
+    padding: 2rem;
+    font-size: small;
+  }
+  .bottom_card_img {
+    background-color: #f1efee;
+    border-radius: 2px;
+    border: 0px;
+    margin-bottom:  1rem;
+  }
+  .bottom-card {
+    padding: 0.4rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .card_container {
+    display: flex;
+    font-size: small;
+  }
+  .card_img {
+    background-color: #f1efee;
+    border-radius: 228px;
+    width: 110px;
+    border: 2px  ;
+    margin-bottom:  1rem;
+  }
+  .card {
+    padding: 0.4rem;
+    text-align: center;
+
+    text-transform: uppercase;
+  }
+}
